@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="/index.css" />
+  </head>
+
+  <body>
+    <div class="first-text">
+      DEE'S <iconify-icon icon="emojione:books"></iconify-icon>BOOK
+      <iconify-icon icon="emojione:books"></iconify-icon>LISTS
+      <iconify-icon icon="emojione:books"></iconify-icon>
+    </div>
+
+    <div class="image">
+      <img src="/image/mybook.png" alt="image" />
+    </div>
+    <div class="form-div">
+      <form action="/action.php">
+        <label for="title">Title</label>
+        <input class="title" type="text" id="title"><br/>
+        <label for="author">Author</label>
+        <input class="author" type="text" id="author" ><br/>
+        <label for="isbn">ISBN</label>
+        <input class="isbn" type="text" id="isbn" required /><br/>
+        <input type="button" id="button" value="SUBMIT" />
+      </form>
+    </div>
+
+    <div class="table-div">
+      <table>
+        <tr>
+          <th>Title</th>
+          <th>Author</th>
+          <th>ISBN</th>
+          <th></th>
+        </tr>
+        <tr>
+          <!-- <td>Harry Potter</td>
+          <td>J.K. Rowling</td>
+          <td>1567-458</td>
+          <td><button class="delete-btn">delete</button></td> -->
+        </tr>
+      </table>
+    </div>
+
+    <script src="/index.js"></script>
+  </body>
+</html>
