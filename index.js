@@ -91,8 +91,10 @@ function removeBook(e) {
   const clickedButton = e.target.parentElement.parentElement.remove();
 }
 
+// DARK MODE TOGGLE
 const darkModebtn = document.getElementsByClassName('icon')[0]
 const body = document.body
+const textOne = document.getElementById("text-one")
 
 const modeStatus = JSON.parse(localStorage.getItem("darkMode"))
 if(modeStatus == "dark"){
@@ -100,12 +102,14 @@ if(modeStatus == "dark"){
 }
 
 darkModebtn.addEventListener('click', ()=>{
-body.classList.toggle('dark-mode')  
+body.classList.toggle('dark-mode')
+textOne.innerHTML = 'Click here for light mode'
 if(body.classList.contains('dark-mode')){
   localStorage.setItem("darkMode", JSON.stringify("dark"))
 }else{
-  localStorage.getItem("darkMode", JSON.stringify("light"))
+  localStorage.setItem("darkMode", JSON.stringify("light"))
 }
+
 })
 
 

@@ -2,6 +2,10 @@
   background-color: black;
   color: white;
 }
+/* .light-mode{
+  background-color: white;
+  color: black;
+} */
 
 .first-div{
 display: flex;
