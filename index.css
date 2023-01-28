@@ -136,6 +136,12 @@ overflow-x: scroll;
 #added{
   background-color: brown;
   display:none;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 35px;
+  text-align: center;
+  border-radius: 10px;
+  color: white;
 }
 
 
