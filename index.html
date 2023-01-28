@@ -10,6 +10,13 @@
   </head>
 
   <body>
+<div class="first-div">
+  <div>Click here for dark mode</div>
+  <button class="icon">
+    <iconify-icon icon="teenyicons:moon-solid" style="color: white;" width="25"></iconify-icon>
+  </button>
+</div>
+
     <div class="first-text">
       DEE'S <iconify-icon icon="emojione:books"></iconify-icon>BOOK
       <iconify-icon icon="emojione:books"></iconify-icon>LISTS
@@ -19,14 +26,18 @@
     <div class="image">
       <img src="/image/mybook.png" alt="image" />
     </div>
+
+    <p></p>
+    <p id="added">Book has been added&#128522;</p>
+
     <div class="form-div">
       <form action="/action.php">
         <label for="title">Title</label>
-        <input class="title" type="text" id="title"><br/>
+        <input class="title" type="text" id="title" /><br />
         <label for="author">Author</label>
-        <input class="author" type="text" id="author" ><br/>
+        <input class="author" type="text" id="author" /><br />
         <label for="isbn">ISBN</label>
-        <input class="isbn" type="text" id="isbn" required /><br/>
+        <input class="isbn" type="text" id="isbn" required /><br />
         <input type="button" id="button" value="SUBMIT" />
       </form>
     </div>
