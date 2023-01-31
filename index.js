@@ -88,7 +88,6 @@ function removeBook(e) {
 // DARK MODE TOGGLE
 const darkModebtn = document.getElementsByClassName('icon')[0]
 const body = document.body
-const textOne = document.getElementById("text-one")
 
 const modeStatus = JSON.parse(localStorage.getItem("darkMode"))
 if(modeStatus == "dark"){
