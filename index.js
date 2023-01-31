@@ -23,6 +23,11 @@ document.getElementById("button").addEventListener("click", () => {
   if (author == "") {
     text.classList.add("error");
     text.textContent = "Fill in the blank spaces";
+    function erase(){
+      text.classList.remove("error");
+      text.textContent = ""
+  }
+  setTimeout(erase, 6000)
     return;
   }else {
     text.classList.remove("error");
@@ -32,6 +37,11 @@ document.getElementById("button").addEventListener("click", () => {
   if (isbn == "") {
     text.classList.add("error");
     text.textContent = "Fill in the blank spaces";
+    function erase(){
+      text.classList.remove("error");
+      text.textContent = ""
+  }
+  setTimeout(erase, 6000)
     return;
   }else {
     text.classList.remove("error");
