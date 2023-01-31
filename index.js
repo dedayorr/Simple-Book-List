@@ -1,9 +1,3 @@
-if (document.readyState === "loading") {
-  document.addEventListener("DOMContentLoaded", render);
-} else {
-  render;
-}
-function render() {}
 
 document.getElementById("button").addEventListener("click", () => {
   const title = document.getElementsByClassName("title")[0].value;
@@ -103,7 +97,6 @@ if(modeStatus == "dark"){
 
 darkModebtn.addEventListener('click', ()=>{
 body.classList.toggle('dark-mode')
-textOne.innerHTML = 'Click here for light mode'
 if(body.classList.contains('dark-mode')){
   localStorage.setItem("darkMode", JSON.stringify("dark"))
 }else{

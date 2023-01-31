@@ -2,6 +2,7 @@
   background-color: black;
   color: white;
 }
+
 /* .light-mode{
   background-color: white;
   color: black;
@@ -146,7 +147,7 @@ overflow-x: scroll;
 
 
 
-
+/* MEDIA QUERY */
   @media (min-width: 768px){
     form{
         display: flex;
